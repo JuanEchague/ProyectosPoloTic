@@ -1,0 +1,47 @@
+.pag{
+	background-color: rgba(41, 233, 247, 0.603);
+}
+.databox{
+	text-align: center;
+}
+.logo{
+	width: 70vw;
+	height: 20.375vw;
+}
+.tabla{
+	text-align: center;
+	color: rgb(10, 0, 54);
+	font-family: Courier New;
+	font-size: 2.865vw;
+	border-radius: 8px;
+}
+.columna{
+	border: 2px solid;
+	border-radius: 8px;
+	background-color: rgb(5, 156, 226);
+}
+.ir_a{
+	margin-top: 10px;
+	text-align: center;
+}
+.boton{
+	height: 10vw;
+    width: 15vw;
+	padding: 0.5vw;
+    color: #000000;
+	background: #00c3ff;
+	border-radius: 8px;
+	text-decoration: none;
+	border: 2px solid black;
+}
+.boton:hover{
+background-color: #00505a;
+border-bottom: 5px solid black;
+height: 10vw;
+width: 15vw;
+}
+.reg{
+	color: rgb(10, 0, 54);
+	font-family: Courier New;
+	font-size: 2vw; 
+}

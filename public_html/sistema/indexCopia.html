@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PoloTic Proyectos 2021</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="navbar.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	
+		
+	<body class="is-preload">		
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				
+				<!-- Header -->
+					<header id="header">
+						<h1>Bienvenidos</h1>
+						<p>Parque Industrial y de la Innovación Posadas</p>
+							<ul>
+								<li>
+									<a href="menu.html"><button type="button" style="width: 60%;">PROYECTOS</button></a>
+								</li>
+							</ul>
+					</header>
+			</div>
+		</div>
+	
+	</body>
+</html>
+
+
+
+
+<!-- Jquery needed -->
+
+<nav class="nav">
+	<div class="container">
+		<div class="logo">
+			<!--<a href="#">Your Logo</a>-->
+		</div>
+		<div id="mainListDiv" class="main_list">
+			<ul class="navlinks">
+				<li><a href="#">Conocenos</a></li>
+				<!--<li><a href="#">Portfolio</a></li>-->
+				<li><a href="#">Contáctanos</a></li>
+				<li><a href="https://polotic.misiones.gob.ar/">Pag. Oficial</a></li>
+			</ul>
+		</div>
+		<span class="navTrigger">
+			<i></i>
+			<i></i>
+			<i></i>
+		</span>
+	</div>
+</nav>
+<section class="home">
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="navbar.js"></script>
+
+<script>
+	window.onload = function() { document.body.classList.remove('is-preload'); }
+	window.ontouchmove = function() { return false; }
+	window.onorientationchange = function() { document.body.scrollTop = 0; }
+
+// Function used to shrink nav bar removing paddings and adding black background -->
+
+	$(window).scroll(function() {
+		if ($(document).scrollTop() > 50) {
+			$('.nav').addClass('affix');
+			console.log("OK");
+		} else {
+			$('.nav').removeClass('affix');
+		}
+	});
+</script>
