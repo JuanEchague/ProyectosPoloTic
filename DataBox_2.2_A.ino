@@ -279,7 +279,7 @@ void alarma()
 {
   digitalWrite(buzzer, HIGH);
   if(val ==true){
-  if (ta > 20)
+  if (ta > 50)
   {
     digitalWrite(buzzer, LOW);
     }
